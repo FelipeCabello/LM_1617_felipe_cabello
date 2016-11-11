@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form>
+      <table style="border:solid">
+        <thead>
+          <th align=center colspan="2">Formulario</th>
+        <thead>
+        <tbody>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td><label>Usuario</label></td>
+            <td><input type="text" autofocus="text"><br></td>
+          </tr>
+          <tr>
+            <td><label>Contraseña</label></td>
+            <td><input type="password"><br></td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td><label>Nombre</label></td>
+            <td><input type="text" required="required"/></td>
+          </tr>
+          <tr>
+            <td><label>Apellidos</label></td>
+            <td><input type="text" required="required"/></td>
+          </tr>
+          <tr>
+            <td><label>DNI</label></td>
+            <td><input type="text"><br></td>
+          </tr>
+          <tr>
+            <td><label>Fecha de nacimiento</label></td>
+            <td><input type="date"><br></td>
+          </tr>
+          <tr>
+            <td><label>Sexo</label></td>
+            <td>
+              <input type="radio" name="gender" value="male" checked> Hombre<br>
+              <input type="radio" name="gender" value="female"> Mujer<br>
+              <input type="radio" name="gender" value="other"> Otro
+            </td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td><label>Correo electronico</label></td>
+            <td><input type="email"><br></td>
+          </tr>
+          <tr>
+            <td><label>Teléfono</label></td>
+            <td><input type="number" required="required"/></td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td><label>Provincia</label></td>
+            <td><select name="provincia">
+            	<option value='0'>(Seleccionar)</option>
+            	<option value='2'>Álava</option>
+            	<option value='3'>Albacete</option>
+            	<option value='4'>Alicante/Alacant</option>
+            	<option value='5'>Almería</option>
+            	<option value='6'>Asturias</option>
+            	<option value='7'>Ávila</option>
+            	<option value='8'>Badajoz</option>
+            	<option value='9'>Barcelona</option>
+            	<option value='10'>Burgos</option>
+            	<option value='11'>Cáceres</option>
+            	<option value='12'>Cádiz</option>
+            	<option value='13'>Cantabria</option>
+            	<option value='14'>Castellón/Castelló</option>
+            	<option value='15'>Ceuta</option>
+            	<option value='16'>Ciudad Real</option>
+            	<option value='17'>Córdoba</option>
+            	<option value='18'>Cuenca</option>
+            	<option value='19'>Girona</option>
+            	<option value='20'>Las Palmas</option>
+            	<option value='21'>Granada</option>
+            	<option value='22'>Guadalajara</option>
+            	<option value='23'>Guipúzcoa</option>
+            	<option value='24'>Huelva</option>
+            	<option value='25'>Huesca</option>
+            	<option value='26'>Illes Balears</option>
+            	<option value='27'>Jaén</option>
+            	<option value='28'>A Coruña</option>
+            	<option value='29'>La Rioja</option>
+            	<option value='30'>León</option>
+            	<option value='31'>Lleida</option>
+            	<option value='32'>Lugo</option>
+            	<option value='33'>Madrid</option>
+            	<option value='34'>Málaga</option>
+            	<option value='35'>Melilla</option>
+            	<option value='36'>Murcia</option>
+            	<option value='37'>Navarra</option>
+            	<option value='38'>Ourense</option>
+            	<option value='39'>Palencia</option>
+            	<option value='40'>Pontevedra</option>
+            	<option value='41'>Salamanca</option>
+            	<option value='42'>Segovia</option>
+            	<option value='43'>Sevilla</option>
+            	<option value='44'>Soria</option>
+            	<option value='45'>Tarragona</option>
+            	<option value='46'>Santa Cruz de Tenerife</option>
+            	<option value='47'>Teruel</option>
+            	<option value='48'>Toledo</option>
+            	<option value='49'>Valencia/Valéncia</option>
+            	<option value='50'>Valladolid</option>
+            	<option value='51'>Vizcaya</option>
+            	<option value='52'>Zamora</option>
+            	<option value='53'>Zaragoza</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td><label>Código postal</label></td>
+            <td><input type="number" required="required"></td>
+          </tr>
+          <tr>
+            <td><label>Dirección</label></td>
+            <td><input type="text" required="required"/></td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td><label>Curso en el<br> que se matricula</label></td>
+            <td>
+              <select name="curso">
+                <option value='0'>(Seleccionar)</option>
+                <option value="1 bachillerato">1º Bachillerato</option>
+                <option value="2 bachillerato">2º Bachillerato</option>
+                <option value="1 eso">1º ESO</option>
+                <option value="2 eso">2º ESO</option>
+                <option value="3 eso">3º ESO</option>
+                <option value="4 eso">4º ESO</option>
+                <option value="1 fpb">1º FPB</option>
+                <option value="2 fpb">2º FPB</option>
+                <option value="asir">CFGS ASIR</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><br></td>
+          </tr>
+          <tr>
+            <td colspan="2" align=right>
+              <input type="submit" value="Enviar"/>
+            </td>
+          </tr>
+        </tbody>
+      </table><br>
+    </form>
+  </body>
+</html>

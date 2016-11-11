@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cateneMontuose[
+<!ELEMENT cateneMontuose (catenaMontuosa*)>
+<!ELEMENT catenaMontuosa (monte+)>
+<!ELEMENT monte (nome,regene?,altezza?)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT regene (#PCDATA)>
+<!ELEMENT altezza (#PCDATA)>
+<!ATTLIST altezza unitaMisura CDATA #REQUIRED>
+]>
+
+<cateneMontuose>
+  <catenaMontuosa>
+    <monte>
+      <nome>Sierra Nevada</nome>
+      <regene>Granada</regene>
+      <altezza unitaMisura="altura">1234</altezza>
+    </monte>
+    <monte>
+      <nome>Mulhacén</nome>
+      <regene>Granada</regene>
+      <altezza unitaMisura="altura">4321</altezza>
+    </monte>
+  </catenaMontuosa>
+</cateneMontuose>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad 1</title>
+  </head>
+  <body>
+    <table >
+      <tr>
+        <td>
+          <label><b>Title:*</b></label><br>
+          <input size="70" type="text" required="required"/>
+        </td>
+        <td>
+          <label><b>Short Title:*</b></label><br>
+          <input size="30" type="text" required="required"/>
+        </td>
+        <td>
+          <b>Subj.:</b><br>
+          BLST
+        </td>
+        <td>
+          <label><b>Num.:</b></label><br>
+          <input style="width: 3em" value="10" type="number"/>
+        </td>
+        <td>
+          <label><b>Section:</b></label><br>
+          <input style="width: 3em" value="01" type="number"/>
+        </td>
+        <td>
+          <b>Year:</b><br>
+          0910
+        </td>
+      </tr>
+    </table>
+    <table width=950>
+      <tr>
+        <td>
+          <input type="checkbox" name="type0" value="enrlim">
+        </td>
+        <td>Enrollment limit<br>
+        </td>
+        <td>
+          <label><b>Num.:</b></label><br>
+          <input style="width: 3em" type="number"/>
+        </td>
+        <td>
+          <label><b>Rationale:</b></label><br>
+          <input size="70" type="text"/>
+        </td>
+        <td align="left" valign="top" rowspan="4">
+          <label><b>Class Meeting/Week:</b></label>
+          <br/>
+          <select name="meeting">
+            <option value='meeting'>1</option>
+          </select>
+          <br/>
+          <label><b>Class Hours/Week:</b></label>
+          <br/>
+          <select name="hours">
+            <option value='hours'>0</option>
+          </select>
+          <br/>
+          <label><b>Semestre(s) Offered:</b></label>
+          <br/>
+          <select name="semestre">
+            <option value='semestre'>- None -</option>
+          </select>
+          <br/>
+          <table>
+            <tr>
+              <td>
+                <input type="checkbox" name="type1" value="prereqs" checked>
+              </td>
+              <td>
+                  Incl. semester in prereqs.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type2" value="once">
+              </td>
+              <td>
+                Offered only once
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type3" value="catalog">
+              </td>
+              <td>
+                Incl. on printed catalog<br>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td align="left" valign="top" rowspan="4">
+          <table>
+            <tr>
+              <td colspan="2">
+                <b>Keywords:</b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type4" value="science">
+              </td>
+              <td>
+                Science for non-majors<br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type5" value="fine">
+              </td>
+              <td>
+                Fine arts for non-majors
+              </td>
+            </tr>
+            <tr>
+              <td>
+              <input type="checkbox" name="type6" value="lab">
+            </td>
+            <td> Lab science course<br>
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type7" value="practice">
+              </td>
+              <td>
+                Artistic practice
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="checkbox" name="type8" value="foreign">
+              </td>
+              <td>
+                Foreign language/culture taught in English<br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type9" value="learning">
+              </td>
+              <td>
+                Community based learning<br>
+            </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type10" value="attentive">
+              </td>
+              <td>
+                Writing attentive<br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="type11" value="intensive">
+              </td>
+              <td> Writing intensive<br>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="type12" value="consent">
+        </td>
+        <td>
+          Consent required
+        </td>
+        <td><br>
+        </td>
+        <td>
+          <label><b>Rationale:</b></label><br>
+          <input size="70" type="text"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">
+          <input type="checkbox" name="type13" value="level">
+        </td>
+        <td align="left" valign="top">
+          Limit class level
+        </td>
+        <td align="left" valign="top">
+          <label><b>Code:</b></label><br>
+          <input size="70" style="width: 3em" type="number"/>
+        </td>
+        <td align="left" valign="top">
+          <label><b>Rationale:</b></label><br>
+          <input size="70" type="text"/><br>
+          <label><b>How to handle over-enrollament:</b></label><br>
+          <input size="70" type="text"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">
+          <input type="checkbox" name="type14" value="perequisite">
+        </td>
+        <td align="left" valign="top">
+          Prerequisite
+        </td>
+        <td><br>
+        </td>
+        <td align="left" valign="top">
+          <label><b>Rationale:</b></label><br>
+          <input size="70" type="text"/><br>
+          <label><b>Required Prereqs. (major,couse):</b></label><br>
+          <input size="70" type="text"/><br>
+          <label><b>Recommended Prereqs.:</b></label><br>
+          <input size="70" type="text"/>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td colspan="2">
+          <b>Approvals:</b>
+        </td>
+        <td colspan="2">
+          <b>Date:</b>
+        </td>
+        <td colspan="2">
+          <b>Comment:</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="type15" value="cep">
+        </td>
+        <td>
+          CEP
+        </td>
+        <td>
+          <img width=20 src="http://img.freepik.com/iconos-gratis/las-flechas-de-movimiento_318-121284.jpg?size=338&ext=jpg" alt="flecha">
+        </td>
+        <td>
+          <input size="30" type="text">
+        </td>
+        <td>
+          <img width=20 src="http://img.freepik.com/iconos-gratis/las-flechas-de-movimiento_318-121284.jpg?size=338&ext=jpg" alt="flecha">
+        </td>
+        <td>
+          <input size="70" type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="type16" value="six">
+        </td>
+        <td>
+          Communittee of Six
+        </td>
+        <td>
+          <img width=20 src="http://img.freepik.com/iconos-gratis/las-flechas-de-movimiento_318-121284.jpg?size=338&ext=jpg" alt="flecha">
+        </td>
+        <td>
+          <input size="30" type="text">
+        </td>
+        <td>
+          <img width=20 src="http://img.freepik.com/iconos-gratis/las-flechas-de-movimiento_318-121284.jpg?size=338&ext=jpg" alt="flecha">
+        </td>
+        <td>
+          <input size="70" type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" name="type17" value="faculty">
+        </td>
+        <td>
+          Faculty
+        </td>
+        <td>
+          <img width=20 src="http://img.freepik.com/iconos-gratis/las-flechas-de-movimiento_318-121284.jpg?size=338&ext=jpg" alt="flecha">
+        </td>
+        <td>
+          <input size="30" type="text">
+        </td>
+        <td>
+          <img width=20 src="http://img.freepik.com/iconos-gratis/las-flechas-de-movimiento_318-121284.jpg?size=338&ext=jpg" alt="flecha">
+        </td>
+        <td>
+          <input size="70" type="text">
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA INICIAL</title>
+    <link rel="stylesheet" tupe="text/ccs" href=" ">
+  </head>
+  <body>
+    HOLA
+    <em></em>
+    <b>NEGRITA</b>
+    <i>ITALICA</i>
+    <u>SUBRAYADO</u>
+    <blink>HORROR</blink>
+    <h1>Título</h1>
+    <h2>Título</h2>
+    <h3>Título</h3>
+    <h4>Título</h4>
+    <h5>Título</h5>
+    <h6>Título</h6>
+    <p>Esto es un párrafo</p>
+    <br/>
+    <!-- Esto es un comentario. <br/> se utiliza para poner salatos de líneas-->
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    <ol>
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ol>
+    <dl>
+      <dt>Link</dt>
+      <dd>Es un enlace</dd>
+      <dt>Img</dt>
+      <dd>Es una imagen</dd>
+    </dl>
+    <!-- Ejercicio 1 -->
+    <ul>
+      <li>1GBD
+        <ol>
+          <li>Pepe</li>
+          <li>Manuel</li>
+          <li>Rosa</li>
+        </ol>
+      </li>
+      <li>LM
+        <ol>
+          <li>Lola</li>
+          <li>Rosa</li>
+          <li>Manuel</li>
+        </ol>
+      </li>
+      <li>ISO
+        <ol>
+          <li>Pepe</li>
+          <li>Lola</li>
+          <li>Rosa</li>
+        </ol>
+      </li>
+    </ul>
+    <!-- Ejercicio 2 -->
+    <ol>
+      <li>Betis
+        <ul>
+          <li>LIGA 50-51</li>
+          <li>COPA 94-95</li>
+        </ul>
+      </li>
+      <li>Sevilla
+        <ul>
+          <li>EUROCOPA LIAGUE 2013</li>
+          <li>EUROCOPA LIAGUE 2014</li>
+          <li>EUROCOPA LIAGUE 2015</li>
+        </ul>
+      </li>
+      <li>Cádiz
+        <ul>
+          <li>CARNAVAL</li>
+        </ul>
+      </li>
+    </ol>
+    <!-- Tablas -->
+    <table border="1px solid black">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Direción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pepe</td>
+          <td>Pérez</td>
+          <td>San Jacinto</td>
+        </tr>
+        <tr>
+          <td>Manuel</td>
+          <td>López</td>
+          <td>Esperanza de Triana</td>
+        </tr>
+        <tr>
+          <td>Rosa</td>
+          <td>Angulo</td>
+          <td>Pagés del Corro</td>
+        </tr>
+      </tbody>
+      <caption>¿Qué es caption?</caption>
+    </table>
+    <!-- horario clase -->
+    <br/>
+    <table border="1px solid black">
+      <thead>
+        <tr>
+          <th>Hora</th>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:15</td>
+          <td>LMSGI</td>
+          <td>FOL</td>
+          <td>LMSGI</td>
+          <td>PLDRE</td>
+          <td>GBDIN</td>
+        </tr>
+        <tr>
+          <td>9:15</td>
+          <td>LMSGI</td>
+          <td>PLDRE</td>
+          <td>LMSGI</td>
+          <td>PLDRE</td>
+          <td>GBDIN</td>
+        </tr>
+        <tr>
+          <td>10:15</td>
+          <td>FOL</td>
+          <td>PLDRE</td>
+          <td>FOL</td>
+          <td>PLDRE</td>
+          <td>GBDIN</td>
+        </tr>
+        <tr>
+          <td>11:15</td>
+          <th colspan="5" align="center">Recreo</th>
+        </tr>
+        <tr>
+          <td>11:45</td>
+          <td>GBDIN</td>
+          <td>PLDRE</td>
+          <td>IDINF</td>
+          <td>ISINF</td>
+          <td>FHADW</td>
+        </tr>
+        <tr>
+          <td>12:45</td>
+          <td>GBDIN</td>
+          <td>ISINF</td>
+          <td>ISINF</td>
+          <td>ISINF</td>
+          <td>FHADW</td>
+        </tr>
+        <tr>
+          <td>13:45</td>
+          <td>GBDIN</td>
+          <td>ISINF</td>
+          <td>ISINF</td>
+          <td>ISINF</td>
+          <td>FHADW</td>
+        </tr>
+      </tbody>
+      <caption>Horario clase</caption>
+    </table>
+    <br/>
+  </body>
+</html>

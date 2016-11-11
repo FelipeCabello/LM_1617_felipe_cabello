@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partidos[
+<!ELEMENT partidos (partido)>
+<!ELEMENT partido (resultado,equipos,goles,tarjetas?)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT equipos (casa,fuera)>
+<!ELEMENT casa (#PCDATA)>
+<!ELEMENT fuera (#PCDATA)>
+<!ELEMENT goles (gol)>
+<!ATTLIST gol time CDATA #REQUIRED>
+<!ATTLIST gol type CDATA #REQUIRED>
+<!ELEMENT gol (#PCDATA)>
+<!ELEMENT tarjetas (roja+,amarilla+)>
+<!ELEMENT roja (#PCDATA)>
+<!ELEMENT amarilla (#PCDATA)>
+]>
+
+<partidos>
+  <partido>
+    <resultado>0-1</resultado>
+    <equipos>
+      <casa>Sevilla</casa>
+      <fuera>Betis</fuera>
+    </equipos>
+    <goles>
+      <gol time="33" type="penalti">Rubén Castro</gol>
+    </goles>
+    <tarjetas>
+      <roja>Vietto</roja>
+      <amarilla>Vitolo</amarilla>
+      <amarilla>Rubén Castro</amarilla>
+    </tarjetas>
+  </partido>
+</partidos>

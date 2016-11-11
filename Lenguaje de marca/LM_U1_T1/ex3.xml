@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+      <receta>
+              <nombre>Mousse de tomate y albahaca</nombre>
+              <ingrediente>4-6 tomates</ingrediente>
+              <ingrediente>100ml de mayonesa</ingrediente>
+              <ingrediente>200ml de nata</ingrediente>
+              <ingrediente>1 diente de ajo</ingrediente>
+              <ingrediente>Varias hojas de albahaca</ingrediente>
+              <ingrediente>Sal y pimienta</ingrediente>
+              <elaboracion>Comenzamos lavando los tomates, partiéndolos por la mitad y quitándoles las pepitas. Los salamos bien y los ponemos boca a bajo sobre papel absorbente, para que suelten todo el agüilla. Con media hora será suficiente. Transcurrido ese tiempo, trituramos los tomates con la batidora junto con el diente de ajo picado y las hojas de albahaca. Luego añadimos la nata y la mayonesa, mezclamos suavemente con una cuchara, ajustamos de sal y pimienta y refrigeramos al menos durante dos horas antes de servir.</elaboracion>
+      </receta>
+      <receta>
+              <nombre>Natillas caramelizadas</nombre>
+              <ingrediente>600g de leche</ingrediente>
+              <ingrediente>3 huevos</ingrediente>
+              <ingrediente>120g de azucar</ingrediente>
+              <ingrediente>1 cuchara de vainilla líquida</ingrediente>
+              <ingrediente>1 cuchara de maizena</ingrediente>
+              <elaboracion>Empezamos poniendo en el vaso la leche, los huevos, el azúcar, la vainilla y la maizena y programamos 8 min/90ºC/vel 4. Vertemos las natillas en seis cazuelitas y dejamos templar. Una vez frías, espolvoreamos cada natilla con un poco de azúcar molido y lo quemamos con ayuda de un soplete de cocina antes de servir.</elaboracion>
+      </receta>
+</libro>

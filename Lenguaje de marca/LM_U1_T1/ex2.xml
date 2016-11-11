@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bus>
+     <ruta1>
+            <nombre>LineT1</nombre>
+            <horario>06:00 - 06:50</horario>
+            <informacion>Plaza Nueva - San Bernardo</informacion>
+            <paradas>
+                     <parada1>
+                              <nombre>Plaza Nueva</nombre>
+                              <hora>6:10</hora>
+                     </parada1>
+                     <parada2>
+                              <nombre>Archivo de Indias</nombre>
+                              <hora>6:20</hora>
+                     </parada2>
+                     <parada3>
+                              <nombre>Puerta Jerez</nombre>
+                              <hora>6:30</hora>
+                     </parada3>
+                     <parada4>
+                              <nombre>Prado San Sebastián</nombre>
+                              <hora>6:40</hora>
+                     </parada4>
+                     <parada5>
+                              <nombre>San Bernardo</nombre>
+                              <hora>6:50</hora>
+                     </parada5>
+            </paradas>
+     </ruta1>
+</bus>
