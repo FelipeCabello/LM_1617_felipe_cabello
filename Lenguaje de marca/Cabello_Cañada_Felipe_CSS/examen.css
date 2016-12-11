@@ -1,0 +1,68 @@
+* {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.container {
+  height: 800px
+}
+
+.izquierda {
+  width: 200px;
+  height: 650px;
+  float: left;
+}
+
+.icono {
+  width: 200px;
+}
+
+.img1 {
+  width: 120px;
+  height: 140px;
+}
+
+.select li {
+  height: 20px
+}
+
+.derecha {
+  width: 600px;
+  height: 550px;
+  float: right;
+}
+
+.foto {
+  width: 600px;
+}
+
+.foto span {
+  align-content: stretch;
+}
+
+.foto .izq {
+  width: 50px
+}
+
+.img2 {
+  width: 400px;
+  height: 430px
+}
+
+.texto {
+  margin: 10px auto;
+}
+
+.text {
+  font-size: 10px
+}
+
+.abajo {
+  width: 800px;
+  height: 50px;
+}
+
+.abajo p {
+  width: 800px;
+  padding-left: 150px
+}

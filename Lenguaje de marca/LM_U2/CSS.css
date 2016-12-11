@@ -1,0 +1,12 @@
+thead>tr {
+  background-color: grey;
+  color: white;
+}
+td:first-child {
+  color: red;
+  font-size: 2em;
+}
+#recreo {
+  color: white;
+  background-color: red;
+}

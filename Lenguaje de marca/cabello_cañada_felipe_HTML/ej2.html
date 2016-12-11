@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Examen- Ejercicio 2</title>
+  </head>
+  <body>
+    <h1>My feedback from</h1>
+    <table>
+      <tr>
+        <td>
+          Name:
+          <input size="50" type="text" style="width: 20em">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Email:
+          <input size="50" type="email" style="width: 20em">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Password:
+          <input size="50" type="password" style="width: 20em">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Please check all the emotions that apply to you:
+          <ul>
+            <li>Angry <input type="checkbox" name="type1" value="staffing" checked></li>
+            <li>Sad <input type="checkbox" name="type2" value="staffing"></li>
+            <li>Happy <input type="checkbox" name="type3" value="staffing"></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          How satisfied were you with our service?
+          <ul>
+            <li>Very satisfied <input type="radio" name="type4" checked></li>
+            <li>Satisfied <input type="radio" name="type5"></li>
+            <li>Didn't care <input type="radio" name="type6"></li>
+            <li>Dissatisfied <input type="radio" name="type7"></li>
+            <li>Very dissatisfied <input type="radio" name="type8"></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <fieldset>
+      <legend style="background:white">
+        Additional Information
+      </legend>
+      <table>
+        <tr>
+          <td>
+            Futher comments:
+            <textarea name="name" rows="4" cols="50"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Bio photo: <button class="button">Seleccionar archivo</button> No se ha seleccionado ningún archivo.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Location visited: <select name="event">
+              <option value="location0">Selec location</option>
+              <option value="location1">Sevilla</option>
+              <option value="location2">Córdoba</option>
+              <option value="location1">Huelva</option>
+              <option value="location1">Cádiz</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <button class="button">
+      submit
+    </button>
+  </body>
+</html>
