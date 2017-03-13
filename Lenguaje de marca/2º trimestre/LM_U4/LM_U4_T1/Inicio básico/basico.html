@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea 1</title>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="basico.css">
+</head>
+<body>
+
+	<h1>Título. Tarea 1</h1>
+
+	<table border="1px solid black">
+		<thead>
+			<tr>
+				<th>Hora</th>
+				<th>Lunes</th>
+				<th>Martes</th>
+				<th>Miercoles</th>
+				<th>Jueves</th>
+				<th>Viernes</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>8:15</td>
+				<td>LMSGI</td>
+				<td>FOL</td>
+				<td>LMSGI</td>
+				<td>PLDRE</td>
+				<td>GBDIN</td>
+			</tr>
+			<tr>
+				<td>9:15</td>
+				<td>LMSGI</td>
+				<td>PLDRE</td>
+				<td>LMSGI</td>
+				<td>PLDRE</td>
+				<td>GBDIN</td>
+			</tr>
+			<tr>
+				<td>10:15</td>
+				<td>FOL</td>
+				<td>PLDRE</td>
+				<td>FOL</td>
+				<td>PLDRE</td>
+				<td>GBDIN</td>
+			</tr>
+			<tr>
+				<td>11:15</td>
+				<th colspan="5" align="center">Recreo</th>
+			</tr>
+			<tr>
+				<td>11:45</td>
+				<td>GBDIN</td>
+				<td>PLDRE</td>
+				<td>IDINF</td>
+				<td>ISINF</td>
+				<td>FHADW</td>
+			</tr>
+			<tr>
+				<td>12:45</td>
+				<td>GBDIN</td>
+				<td>ISINF</td>
+				<td>ISINF</td>
+				<td>ISINF</td>
+				<td>FHADW</td>
+			</tr>
+			<tr>
+				<td>13:45</td>
+				<td>GBDIN</td>
+				<td>ISINF</td>
+				<td>ISINF</td>
+				<td>ISINF</td>
+				<td>FHADW</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<table border="1px solid">
+		<tr>
+			<td>Felipe Cabello</td>
+		</tr>
+		<tr>
+			<td>Sergio Cepeda</td>
+		</tr>
+		<tr>
+			<td>Isabel Vecerril</td>
+		</tr>
+		<tr>
+			<td>José Bellido</td>
+		</tr>
+		<tr>
+			<td>Manuel Zurita</td>
+		</tr>
+		<tr>
+			<td>Antonio Herrera</td>
+		</tr>
+		<tr>
+			<td>Ivan Lopez</td>
+		</tr>
+		<tr>
+			<td>Mariano Rajoy</td>
+		</tr>
+		<tr>
+			<td>Esperanza Aguirre</td>
+		</tr>
+		<tr>
+			<td>Teofila Martinez</td>
+		</tr>
+	</table>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Ultimo. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<script>
+	  $(function() {
+			$("h1").addClass("prueba");   //añadir una clase
+			$(".prueba").css({"background-color": "black","color": "white"});   //añadir valores css
+
+			$("tr:first").addClass("horario");   //elige el primer tr
+			$(".horario").css({"background-color": "red","color": "white"});
+
+			$("table:last").attr("id","impar");   //elige la ultima tabla, cambia un atributo y su valor
+			$("#impar").css({"background-color": "grey","color": "black"});
+			$("#impar tr:odd").css({"background-color": "grey","color": "white"});   //odd = elige los impares
+
+			$("p:last").addClass("parrafo");   //elige el ultimo párrafo
+			$("p").hide();   //oculta
+			$(".parrafo").show();   //muestra
+	  });
+	</script>
+
+</body>
+</html>

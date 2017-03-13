@@ -1,0 +1,155 @@
+<!--
+    Author: Juan Diego Pérez @pekechis
+    E-mail: contact@jdperez.es
+    Description: jQuery Exam 08-03-2017. Building a Digital Frame
+    Date: December 2016
+    Reference: http://api.jquery.com/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Exam Digital Frame</title>
+	<!-- Loading jQUery Script -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+
+	<div id="main">
+		<h1>Digital Frame</h1>
+		<div id="images">
+			<img id="uno" src="./img/html_logo.png" />
+			<img id="dos" src="./img/bootstrap-logo.jpg" />
+			<img id="tres" src="./img/js.png" />
+			<img id="cuatro" src="./img/jQurery.gif" />
+		</div>
+		<div id="frame">
+			<div id="picture" class="mostar">
+				<img src="./img/html_logo.png" />
+			</div>
+			<div id="zoom">
+				<img id="in" src="./img/zoom-in.png" />
+				<img id="out" src="./img/zoom-out.png" />
+			</div>
+			<div id="colors">
+				<div id="negro"></div>
+				<div id="rojo"></div>
+				<div id="azul"></div>
+				<div id="amarillo"></div>
+				<div id="verde"></div>
+				<div id="rosa"></div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+	  $(function() {
+
+			/*
+
+			//IMAGENES
+			$("#uno").click(function(event) {
+				$(this).parent().siblings("#frame").children("#picture").children("img").attr("src","./img/html_logo.png");
+			});
+
+			$("#dos").click(function(event) {
+				$(this).parent().siblings("#frame").children("#picture").children("img").attr("src","./img/bootstrap-logo.jpg");
+			});
+
+			$("#tres").click(function(event) {
+				$(this).parent().siblings("#frame").children("#picture").children("img").attr("src","./img/js.png");
+			});
+
+			$("#cuatro").click(function(event) {
+				$(this).parent().siblings("#frame").children("#picture").children("img").attr("src","./img/jQurery.gif");
+			});
+
+			//BORDES
+			$("#colors #negro").click(function(event) {
+				$(this).parent().siblings("#picture").children("img").css("border","10px solid black")
+				$(this).parent().siblings("#picture").css("border","10px solid black")
+			});
+
+			$("#colors #rojo").click(function(event) {
+				$(this).parent().siblings("#picture").children().css("border","10px solid red")
+				$(this).parent().siblings("#picture").css("border","10px solid red")
+			});
+
+			$("#colors #azul").click(function(event) {
+				$(this).parent().siblings("#picture").children().css("border","10px solid blue")
+				$(this).parent().siblings("#picture").css("border","10px solid blue")
+			});
+
+			$("#colors #amarillo").click(function(event) {
+				$(this).parent().siblings("#picture").children().css("border","10px solid yellow")
+				$(this).parent().siblings("#picture").css("border","10px solid yellow")
+			});
+
+			$("#colors #verde").click(function(event) {
+				$(this).parent().siblings("#picture").children().css("border","10px solid green")
+				$(this).parent().siblings("#picture").css("border","10px solid green")
+			});
+
+			$("#colors #rosa").click(function(event) {
+				$(this).parent().siblings("#picture").children().css("border","10px solid pink")
+				$(this).parent().siblings("#picture").css("border","10px solid pink")
+			});
+
+			//ZOOM IN
+			$("#zoom #in").click(function(event){
+				$(this).parent().siblings("#picture").children().animate({width: "+=25" , height: "+=25"},100);
+			});
+
+			//ZOOM OUT
+			$("#zoom #out").click(function(event){
+				$(this).parent().siblings("#picture").children().animate({width: "-=25" , height: "-=25"},100);
+			});
+
+			*/
+
+			// CORRECCION EXAMEN
+
+			//IMAGENES
+			$("#images img").click(function(event) {
+				$("#picture img").attr("src",$(this).attr("src"));
+			});
+
+			//BORDES
+			$("#colors div").click(function(event) {
+				var color = $(this).css("background-color");
+				$("#picture").css("border-color",color);
+				$("#picture img").css("border-color",color);
+			});
+
+			//ZOOM IN
+			$("#zoom img:nth-child(1)").click(function(event) {
+				$("#picture img").animate({
+					width : "+=25px",
+					height : "+=25px",
+					margin : "-=13.5px",
+				},50);
+			});
+
+			//ZOOM OUT
+			$("#zoom img:nth-child(2)").click(function(event) {
+
+				if () {
+					$("#picture img").animate({
+						width : "-=25px",
+						height : "-=25px",
+						margin : "+=13.5px",
+					},50);
+				}
+
+			});
+
+	  });
+
+		</script>
+
+</body>
+</html>

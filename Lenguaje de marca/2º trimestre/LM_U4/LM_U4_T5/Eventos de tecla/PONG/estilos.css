@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+	width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid red;
+	position: relative;
+}
+
+.caja {
+	background-color: #AAAAAA;
+	color: white;
+	font-weight: bold;
+	list-style: none;
+	width: 100px;
+	padding-left: 0px;
+	position: absolute;
+}
+
+#azul {
+	width: 25px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	left: 10px;
+	top: 137px;
+}
+
+#rojo {
+	width: 25px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	left: 565px;
+	top: 137px;
+}

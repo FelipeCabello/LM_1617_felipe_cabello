@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<div class="container">
+		<img src="img/vector-arrow-icons.jpg" alt="ejemplo">
+		<div class="texto">
+			<p>Lorem ipsum dolor sit amet, consectetur
+				adipisicing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna
+				aliqua. Ut enim ad minim veniam, quis
+				nostrud exercitation ullamco laboris nisi
+				ut aliquip ex ea commodo consequat. Duis
+				aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu
+				fugiat nulla pariatur. Excepteur sint
+				occaecat cupidatat non proident, sunt in
+				culpa qui officia deserunt mollit anim id
+				est laborum.
+			</p>
+		</div>
+	</div>
+
+	<div id="sidebar">
+		<div id="content">
+			<img src="img/jQuery.gif"/>
+			<ul>
+					<li>A</li>
+					<li>B</li>
+					<li>C</li>
+					<li>D</li>
+			</ul>
+		</div>
+		<div id="icons">
+			<img class="arrow" id="close"  src="img/close_arrow.png"/>
+			<img class="arrow" id="open" src="img/open_arrow.png"/>
+		</div>
+	</div>
+
+	<script>
+	  $(function() {
+
+
+			$(".texto").hide();  //Ocultamos el texto
+			$(".container img").mouseenter(function() {   //mouseenter = aparececuando pasemos el raton por encima
+				$(".texto").fadeIn(10);   //el texto aparece poco a poco
+			})
+			$(".container img").mouseleave(function() {   //mouseenter = desaparece cuando pasemos el raton por encima
+				$(".texto").fadeOut(10);   //el texto desaparece poco a poco
+			})
+
+			$("#open").hide();
+
+			//Al hacer click ocultas o haces aparecer el div
+			//donde esta la informaciónm, y el div de las fechas
+			//estara siempre pregado a la izquierda.
+			$("#close").click(function() {   //al hacer click
+				$("#content").hide();   //el contenido desaparece
+				$(this).hide();   //la flecha "ocultar" ahora se oculta
+				$("#open").show();   //y la flecha "aparecer" se mostrará
+			});
+
+			$("#open").click(function() {
+				$("#content").show();
+				$(this).hide();
+				$("#close").show();
+			});
+	  });
+	</script>
+
+</body>
+</html>

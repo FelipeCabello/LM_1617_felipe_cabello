@@ -1,0 +1,81 @@
+body {
+  margin-top: 100px;
+  background-color: #979797;
+}
+
+.container {
+  width: 540px;
+  margin: auto;
+  background-color: #3D4049;
+  border-radius: 20px;
+  border: 2px solid white;
+
+}
+
+.cajon {
+  overflow: hidden;
+}
+
+.titulo {
+  background-color: #1D1E20;
+  color: white;
+  text-align: center;
+  clear: left;
+  padding: 2px;
+}
+
+.titulo1 {
+  background-color: #1D1E20;
+  color: white;
+  text-align: center;
+  clear: left;
+  padding: 2px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.titulo5 {
+  background-color: #1D1E20;
+  color: white;
+  clear: left;
+  padding: 2px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+hr {
+  margin: 0px;
+  background-color: white;
+}
+
+.info p {
+  margin: 5px;
+  color: white;
+  float: left;
+  width: 48%;
+
+}
+
+.info img {
+  width: 50%;
+  float: left;
+}
+
+#tabla {
+  margin: auto;
+  text-align: center;
+}
+
+#tabla td>h3 {
+  text-align: left;
+}
+
+#tabla td {
+  width: 310px;
+}
+
+#flecha {
+  width: 40px;
+}
+
+#foto {
+  border-radius: 0px 0px 0px 20px;
+}

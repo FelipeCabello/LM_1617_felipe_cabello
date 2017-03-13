@@ -1,0 +1,97 @@
+.parte1 {
+  background-color: #26292e;
+}
+
+.parte2 {
+  background-color: #e7718b;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.parte3 {
+  background-color: #f4f4f6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.parte4 {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.parte5 {
+  background-color: #26292e;
+  padding-bottom: 7px;
+}
+
+
+h1 {
+  padding-bottom: 5px
+}
+
+h1, h2, p {
+  color: white;
+}
+
+.botones {
+  padding-top: 20px;
+  padding-left: 30px
+
+}
+
+.btn {
+  background-color: #26292e;
+  color: white;
+  height: 40px;
+}
+
+.style1{
+	border-top: 10px solid pink;
+  height: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+#parte3 > p {
+  color: #b1b1b3;
+}
+
+#parte4 > p {
+  color: #b1b1b3;
+}
+
+p > b {
+  color: black;
+}
+
+a {
+  width: 30px;
+}
+
+a > img {
+  height: 55px;
+  display: block;
+  margin:0 auto 0 auto;
+  padding-top: 10px;
+}
+
+#mac > img {
+  height: 300px;
+  display: block;
+  margin:0 auto 0 auto;
+}
+
+.lupa > img {
+  width: 300px;
+  padding: 20px;
+  margin:0 auto 0 auto;
+}
+
+#copy {
+  padding-top: 20px
+}
+
+#icono {
+  width: 30px
+}

@@ -1,0 +1,49 @@
+body {
+	background-color: #62C2CC;
+}
+
+.container {
+	margin: auto;
+  width: 480px;
+	color: black;
+	text-align: center;
+}
+
+.primero {
+	padding: 10px;
+	float:left;
+	background-color: #FDB813;
+	position: relative;
+	display: inline;
+	width: 100px;
+}
+.nav2 {
+	position:absolute;
+	margin-top: 10px
+}
+
+.segundo {
+	padding: 10px;
+	float:left;
+	background-color: #F68B1F;
+	width: 100px;
+	margin-left: -10px;
+	height: 20px;
+}
+
+.nav3 {
+	margin-left: 110px;
+	margin-top: -29px;
+	width: 360px;
+	float: left;
+	position: relative;
+}
+
+.tercero {
+	padding: 10px;
+	width: 100px;
+	height: 20px;
+	float:left;
+	background-color: #F17022;
+	display: inline;
+}

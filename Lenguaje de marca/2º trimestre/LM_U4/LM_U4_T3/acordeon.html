@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Template</title>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="acordeon.css">
+</head>
+<body>
+	<div class="container">
+		<div class="cajon">
+			<div class="titulo1">
+				<table id="tabla">
+					<tr>
+						<td><img id="flecha" src="flecha.png" alt="flecha"></td>
+						<td><h3>La última flor</h3></td>
+					</tr>
+				</table>
+			</div>
+			<div class="info">
+				<hr>
+				<img src="flor.jpg" alt="flor">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="cajon">
+			<div class="titulo">
+				<table id="tabla">
+					<tr>
+						<td><img id="flecha" src="flecha.png" alt="flecha"></td>
+						<td><h3>No valemos un duro</h3></td>
+					</tr>
+				</table>
+			</div>
+			<div class="info">
+				<hr>
+				<img src="duro.jpg" alt="flor">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="cajon">
+			<div class="titulo">
+				<table id="tabla">
+					<tr>
+						<td><img id="flecha" src="flecha.png" alt="flecha"></td>
+						<td><h3>La azotea</h3></td>
+					</tr>
+				</table>
+			</div>
+			<div class="info">
+				<hr>
+				<img src="azotea.jpg" alt="flor">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="cajon">
+			<div class="titulo">
+				<table id="tabla">
+					<tr>
+						<td><img id="flecha" src="flecha.png" alt="flecha"></td>
+						<td><h3>Los del planeta rojo</h3></td>
+					</tr>
+				</table>
+			</div>
+			<div class="info">
+				<hr>
+				<img src="rojo.jpg" alt="flor">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="cajon">
+			<div class="titulo5">
+				<table id="tabla">
+					<tr>
+						<td><img id="flecha" src="flecha.png" alt="flecha"></td>
+						<td><h3>Ley de vida</h3></td>
+					</tr>
+				</table>
+			</div>
+			<div class="info">
+				<hr>
+				<img id="foto" src="vida.jpg" alt="flor">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+		</div>
+	</div>
+	<script>
+	  $(function() {
+			$(".container div div").next().hide();   //Selecciona solo el contenido y lo oculta
+			$(".container div div").click(function(){   //Al hacer click:
+				$(this).next().animate({   //A este se le da una animacion para que aparecezca al hacer click
+            height: "toggle",
+        });
+				$(this).parent().siblings().children().next().hide();   //vuelve a ocultarlo todo
+			});
+	  });
+	</script>
+
+</body>
+</html>

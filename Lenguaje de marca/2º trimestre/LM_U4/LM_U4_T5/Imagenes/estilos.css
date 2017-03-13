@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+}
+
+.imagen {
+  position: absolute;
+}
+
+.imagen img {
+  width: 1000px;
+  height: 600px;
+}
+
+.puntos {
+  position: absolute;
+  margin: auto;
+  padding-top: 560px;
+  padding-left: 434px
+}
+
+.puntos img {
+  width: 30px;
+}
+
+.flechas {
+  position: relative;
+}
+
+#izquierda {
+  position: absolute;
+  width: 200px;
+  margin-left: -50px;
+  margin-top: 200px;
+}
+
+#derecha {
+  position: absolute;
+  width: 200px;
+  margin-top: 204px;
+  margin-left: 850px
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+	<body>
+		<div class="container">
+			<div id="azul">
+			</div>
+			<div id="rojo">
+			</div>
+			<div class="caja">
+				<div class="restart">
+					Restart
+				</div class="restart">
+				<hr>
+				<div>
+					Opción 2
+				</div>
+				<hr>
+				<div class="restart">
+					Opción 3
+				</div>
+			</div>
+		</div>
+
+		<script>
+		$(function() {
+
+			$(".caja").hide();
+
+			$("body").keypress(function(event){
+
+				//Guarda la tecla que pulsemos en una variable
+				var tecla =event.which;
+
+				//Muestra la tecla que pulsas por consola
+				console.log(tecla);
+
+				//Arriba - Azul Tecla W
+				if (tecla == 119){
+					$("#azul").animate({
+						top : "-=10px"
+					},200);
+				}
+
+				//Abajo - Azul Tecla S
+				if (tecla == 115){
+					$("#azul").animate({
+						top : "+=10px"
+					},200);
+				}
+
+				//Arriba - Rojo Tecla O
+				if (tecla == 111){
+					$("#rojo").animate({
+						top : "-=10px"
+					},200);
+				}
+
+				//Abajo - Rojo Tecla L
+				if (tecla == 108){
+					$("#rojo").animate({
+						top : "+=10px"
+					},200);
+				}
+
+			});
+
+			//Esto es para que al hacer click nos salga un menu, y poder elegir la opcion de recargar la apgina
+			// NO FUNCIONA BIEN
+
+			$(".container").mousedown(function(event) {
+				if (event.which == 1 ) {
+					$(".caja").toggle();
+					$(".caja").css({
+						"left" : event.pageX,
+						"top" : event.pageY
+					});
+					$(".restart").mousedown(function(event) {
+						location.reload();
+					});
+				}
+			});
+
+
+		});
+		</script>
+	</body>
+</html>
